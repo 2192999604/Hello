@@ -1,5 +1,6 @@
 package com.example.administrator.test;
 
+import android.app.Dialog;
 import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView text = findViewById(R.layout.test);
+        TextView text;
+        Dialog log;
     }
 }
